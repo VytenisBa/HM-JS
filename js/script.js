@@ -185,73 +185,71 @@ else if(p3 == 9){
 //while ir for
 
 //----------1------
-/*
-let x = 1;
 
-while(x < 6){
-    console.log('Labas');
-    x++;
-}
-*/
+// let x = 1;
+
+// while(x < 6){
+//     console.log('Labas');
+//     x++;
+// }
+
 
 //--------2------
 
-/*
-let x = 0;
 
-while(x < 5){
-    console.log(x);
-    x++;
-}
-*/
+// let x = 0;
+
+// while(x < 5){
+//     console.log(x);
+//     x++;
+// }
+
 
 //---------4-------
 
-/*
-let x = 49;
 
-while(x < 54){
-    console.log(x);
-    x++;
-}
-*/
+// let x = 49;
+
+// while(x < 54){
+//     console.log(x);
+//     x++;
+// }
+
 
 //--------3------
 
-/*
-for(let x = 0; x < 50; x = x + 10){
-    console.log(x);
-}
-*/
+
+// for(let x = 0; x < 50; x = x + 10){
+//     console.log(x);
+// }
+
 
 //--------5--------
 
-/*
-for(let x = 4; x >= 0; x = x - 1){
-    console.log(x);
-}
-*/
+
+// for(let x = 4; x >= 0; x = x - 1){
+//     console.log(x);
+// }
+
 
 //------6--------
 
-/*
-for(let x = 0; x  < 5; x++){
-    console.log(Math.floor(Math.random() * 11));
-}
-*/
+
+// for(let x = 0; x  < 5; x++){
+//     console.log(Math.floor(Math.random() * 11));
+// }
+
 
 //--------7--------
-/*
-let x= 1;
-while(x != 5){
-    x = (Math.floor(Math.random() * 11));
-    console.log(x);
-}
-*/
+
+// let x= 1;
+// while(x != 5){
+//     x = (Math.floor(Math.random() * 11));
+//     console.log(x);
+// }
+
 
 //-----8---------
-
-
 
 
 
