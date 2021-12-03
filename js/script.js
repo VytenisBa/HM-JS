@@ -2,7 +2,12 @@
 console.log("Hello");
 
 
- //if ciklai
+
+
+
+
+ //if 
+
 //---------1-------
 /*
 let n;
@@ -171,17 +176,116 @@ else if(p3 == 9){
 */
 
 //----------10-------
+
+// let n;
+// n = 2;
+
+// if (n % 2 === 0 && n != 2) {
+//     console.log(n + ' month have 30 days');
+// }
+// else if (n % 2 === 1) {
+//     console.log(n + ' month have 31 days');
+// }
+// else if (n === 2){
+//     console.log(n + ' month have only 28 days');
+// }
+
+
 //----------11-------
+
+// let v1 = 8;
+// let m1 = 29; 
+
+// let v = 9;
+// let m = 5;
+
+// let m2 = 43;
+
+// if( ((v1*60) + m1 + m2) > ((v*60) + m) ){
+//     console.log('Pertras is gona late to school')
+// }
+// else {
+//     console.log('Pertras arives on time to school')    
+// }
+
+
+
+
 //----------12-------
+
+// let n;
+// n = 13;
+
+// if(n % 2 === 0 && n != 2 && n != 4){
+//     console.log('From '+ n + ' maches yes you can bild a triange');
+// }
+// else console.log('No from '+ n + ' maches you can\'t bild a triange');
+
+
 //----------13-------
+
+// const s = 1896;
+// let m = 2008;  //metai
+// let n;
+
+// if(m % 4 ===0) {
+//     n = (m - s) / 4 + 1;
+//     console.log(m +' year are '+ n +' Olimpic year');
+// }
+// else console.log(m +' year are not Olimpic year');
+
+
 //----------14-------
+
+
+
 //----------15-------
+
+// let c = 50; //pinigai
+// let p = 20; //kaina
+// let k; //ledai
+// let m; //graza
+
+// if(k = (c / p)){
+//     m = c % p;
+//     console.log('Saulius can buy '+ Math.trunc(k) +' ice creams and, and left with '+ m +' cnt change');
+// }
+
+
 //----------16-------
 
+// let n = 100; 
+// let m = 14; 
+// let k; 
+
+// if(k = n / m){
+//     console.log('To delivery '+ n +' boxes, need to be done '+ Math.ceil(k) +' trips');    
+// }
+
+//----------17-------
+
+// let a = 10;
+// let b = 5;
+
+// if(a > b){
+//     a -= 1;
+//     b += 1;
+//     console.log(a , b);
+// }
+// else if (a < b){
+//     a += 1;
+//     b -= 1;
+//     console.log(b , a)
+// }
 
 
 
-//--------------------------------
+
+
+
+
+
+//
 //while ir for
 
 //----------1------
@@ -254,5 +358,6 @@ else if(p3 == 9){
 
 
 
+//-------MASYVAI---------
 
 
