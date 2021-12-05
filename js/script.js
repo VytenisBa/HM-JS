@@ -356,8 +356,44 @@ else if(p3 == 9){
 //-----8---------
 
 
+// let x = 1;
+// let sum = 0;
+
+// while(sum < 100){
+//     x = (Math.floor(Math.random() * 11));
+//     console.log(x);
+//     sum += 1;
+// }
 
 
-//-------MASYVAI---------
+//--------9-----
 
+// let x= 1;
+// let counter = 0;
+
+// while(x != 5 && x != 7){
+//     x = (Math.floor(Math.random() * 11));
+//     console.log(x);
+//     counter += 1;
+// }
+// console.log(counter + ' loops, till get to number ' + x)
+
+
+//-------10-------
+
+//-------11-------
+
+// let y = 9;
+// let d = 0.02;
+// let m = 100;
+// let profit;
+
+
+// for(i = 0; i < 1; i++){
+//     profit = (m * d) * y;    
+//     if(y > 1){
+//         profit = profit +((m + profit) * d);
+//     }
+//     console.log('In '+ y +' year for '+ m +' EUR of investment you profit will be '+ profit.toFixed(2) +' EUR')
+// }
 
