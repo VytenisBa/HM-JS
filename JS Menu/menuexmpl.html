@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="menu-button">Hide Menu</button>
+    <nav id="menu">
+        <div><a href="">Menu0</a></div>
+        <div><a href="">Menu1</a></div>
+        <div><a href="">Menu2</a></div>
+        <div><a href="">Menu3</a></div>
+        <div><a href="">Menu4</a></div>
+        <div><a href="">Menu5</a></div>
+        <div><a href="">Menu6</a></div>
+        <div><a href="">Menu7</a></div>
+        <div><a href="">Menu8</a></div>
+        <div><a href="">Menu9</a></div>
+    </nav>
+
+    <script>
+        let button = document.querySelector('#menu-button');
+        let menu = document.querySelector('#menu');
+        button.addEventListener('click', function (event) {
+                if (menu.style.display == "") {
+                    menu.style.display = "none";
+                    button.innerHTML = "Show Menu";
+                }    
+                    else {
+                        menu.style.display = "";
+                        button.innerHTML = "Hide Menu";
+                    }
+        }   
+        );
+        </script>
+</body>
+</html>
