@@ -328,7 +328,7 @@ else if(p3 == 9){
 // }
 
 
-//--------5--------
+// //--------5--------
 
 
 // for(let x = 4; x >= 0; x = x - 1){
@@ -376,24 +376,90 @@ else if(p3 == 9){
 //     console.log(x);
 //     counter += 1;
 // }
-// console.log(counter + ' loops, till get to number ' + x)
+// console.log(counted + ' loops, till get to number ' + x)
 
 
 //-------10-------
 
 //-------11-------
 
-// let y = 9;
+//BLOGAS
+// let y = 8;
 // let d = 0.02;
 // let m = 100;
 // let profit;
 
 
 // for(i = 0; i < 1; i++){
-//     profit = (m * d) * y;    
-//     if(y > 1){
-//         profit = profit +((m + profit) * d);
-//     }
+//     profit = (m * d ) * y;
 //     console.log('In '+ y +' year for '+ m +' EUR of investment you profit will be '+ profit.toFixed(2) +' EUR')
 // }
+
+//--------12------
+
+// let i = 10, v = 0, d = 0, z = 0;
+
+// while(i != z + 36 || 3 * v != d){
+//     i++
+//     v = Math.floor(i % 10);
+//     d = Math.floor(i / 10 % 10);
+//     z = v * 10 + d;
+// }
+// console.log(i);
+
+//----------13--------
+
+// let i = 0;
+// let m = Math.floor(i / 1000 % 10)
+
+// while(i < 10000){
+//     if(i > 99){
+//         if(m % 2 === 0){
+//             if(i % 998 != 0){
+//             console.log(i)
+//             }
+//         }
+//     }
+//     i++
+//     m = Math.floor(i / 1000 % 10);
+// }
+
+//-----------14----------
+
+// let i = 0;
+
+// while(i < 2021){
+//     if(i % 4 === 0 && i % 100 != 0){
+//         console.log(i);
+//     }   
+//     if(i % 400 === 0){
+//         console.log(i);
+//     }
+//     i++
+// }
+
+//---------15---------
+
+// let i = 990, n = 1000;
+
+// while(i < n){
+//     if(i % 2 === 0 && i % 10 != 0){
+//     console.log(i)
+//     }
+//     i++
+// }
+
+//-----------16---------
+
+// let natNum = 123456789;
+// let firstNatNumb = natNum;
+// console.log(firstNatNumb);
+
+// while(firstNatNumb >= 10){
+//     firstNatNumb = firstNatNumb / 10;
+//     console.log(firstNatNumb)
+// }
+// console.log(Math.floor(firstNatNumb));
+
+//----------17-------------
 
