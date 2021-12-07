@@ -463,3 +463,26 @@ else if(p3 == 9){
 
 //----------17-------------
 
+// let n = 12;
+// let num = n;
+// let sum = 0;
+
+// while(num >= 1){
+//     sum +=num % 10;
+//     num = Math.floor(num / 10);
+// }
+// console.log(n, sum);
+
+//-----------18----------
+
+// let n = 123;
+// let num = n;
+// let reverse = 0;
+
+// while(num >= 1){
+//     reverse = reverse * 10 + num % 10;
+//     num = Math.floor(num / 10);
+// }
+// console.log(n, reverse);
+
+//---------19-----------
