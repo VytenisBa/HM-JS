@@ -486,3 +486,67 @@ else if(p3 == 9){
 // console.log(n, reverse);
 
 //---------19-----------
+
+// let n = 123456789;
+// let dig = n; 
+// let number = 0;
+// let max = 0;
+// let min = 10;
+// while(digit >= 1){
+//     number = digit % 10;
+//     console.log(number);
+//     digit = Math.floor(digit / 10);
+//     console.log(digit);
+//     if(max <= number){
+//         max = number;
+//     }
+//     if(min >- number){
+//         min = number;
+//     }
+// }
+
+//--------------20--------
+
+// let i = 100;
+// let p = 2;
+// let sum = i;
+// let year = 0;
+// while(sum < 100000) {
+//     sum += sum * (p / 100);
+//     year ++;
+// }
+// console.log('šimto eurų indėlis taps didesnis už 100000'+ year +'metų');
+
+//-------------21-----------
+
+// let l = 1;
+// let za = l;
+// let zb = l;
+// let n = 3;
+// let d = 0;
+// let m = 100;
+// if(n > 0){
+//     for(let i = 0; i < n; i++){
+//         za = za +za;
+//     }
+//     console.log('Ziedu skaicius po'+ n +'dienu:'+ za);
+// }
+// while(zb < m /2) {
+//     zb = zb +zb;
+//     d++;
+// }
+// console.log('žiedai užklojo pusę ežero'+ d +'diena'+ zb);
+
+//-----------22-------------
+
+// let m1 = 3;
+// let m = 1;
+// let n = 16;
+// let sum = m1;
+// let d = 1;
+// while(sum <= 16){
+//     m1 += m;
+//     sum += m1;
+//     d++;
+// }
+// console.log('Sodininkas dirbs '+ d +'dienas');
