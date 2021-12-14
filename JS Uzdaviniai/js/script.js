@@ -550,3 +550,102 @@ else if(p3 == 9){
 //     d++;
 // }
 // console.log('Sodininkas dirbs '+ d +'dienas');
+
+//---------------MASYVAI----------
+
+//-------------1--------------
+
+// let arr = [];
+
+// for(let i = 0, t = 30; i < t; i++) {
+//     arr.push(Math.round(Math.random() * t))
+// }
+// console.log(arr);
+
+
+//Math.floor(Math.random*(max-min+1))+min//
+
+let arr = [];
+for(let i = 0; i < 30; ++i) {
+    arr[i] = Math.floor(Math.random()*(25-5+1)) + 5;
+    //arr.push(Math.floor(Math.random()*(25-5+1)) + 5);
+}
+console.log(arr)
+
+//---------2----------------
+//a)
+// let numBigerThen10 = 0;
+// for(i = 0; i < arr.length; ++i) {
+//     if (arr[i] > 10){
+//         numBigerThen10++;
+//     }
+// }
+// console.log(numBigerThen10);
+
+//b)
+// let numMax = 0;
+// let numMaxIndex = [];
+
+// for(i = 0; i < arr.length; ++i){
+//     if(arr[i] > numMax){
+//         numMax = arr[i];
+//     }
+// }
+// for(i = 0; i < arr.length; ++i){
+//     if(arr[i] == numMax){
+//         numMaxIndex.push(i);
+//     }
+// }
+// console.log(numMax);
+// console.log(numMaxIndex);
+
+
+//c)
+// let indexSum = 0;
+// for(i= 0; i < arr.length; ++i){
+//     if(i % 2 === 0){
+//         indexSum += i;
+//     }
+// }
+// console.log(indexSum);
+
+//d)
+// let newArr = [];
+// for(i = 0; i < arr.length; ++i){
+//     newArr.push(n[i] - i);             NEVEIKAI
+// }
+// console.log(newArr);
+
+
+//e)
+// for(i = 0; i < 10; ++i){
+//     arr.push(Math.floor(Math.random()*(25 - 5 +1))+5);
+// }
+// console.log(arr);
+
+//f)
+// let odd = [];
+// let even = [];
+// for(i = 0; i < arr.length; ++i){
+//     if (i % 2 === 0){
+//         even.push(arr[i]);
+//     } else {
+//         odd.push(arr[i]);
+//     }
+// }
+// console.log(odd);
+// console.log(even);
+
+//g)
+
+//h)
+
+let lowestIndex = -1;
+
+for(i = 0; i < arr.length; ++i){
+    if(arr[i] > 10){
+        lowestIndex = i;
+        break;
+    }
+}
+console.log(lowestIndex);
