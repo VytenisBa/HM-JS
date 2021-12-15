@@ -565,12 +565,12 @@ else if(p3 == 9){
 
 //Math.floor(Math.random*(max-min+1))+min//
 
-let arr = [];
-for(let i = 0; i < 30; ++i) {
-    arr[i] = Math.floor(Math.random()*(25-5+1)) + 5;
-    //arr.push(Math.floor(Math.random()*(25-5+1)) + 5);
-}
-console.log(arr)
+// let arr = [];
+// for(let i = 0; i < 30; ++i) {
+//     arr[i] = Math.floor(Math.random()*(25-5+1)) + 5;
+//     //arr.push(Math.floor(Math.random()*(25-5+1)) + 5);
+// }
+// console.log(arr)
 
 //---------2----------------
 //a)
@@ -640,12 +640,12 @@ console.log(arr)
 
 //h)
 
-let lowestIndex = -1;
+// let lowestIndex = -1;
 
-for(i = 0; i < arr.length; ++i){
-    if(arr[i] > 10){
-        lowestIndex = i;
-        break;
-    }
-}
-console.log(lowestIndex);
+// for(i = 0; i < arr.length; ++i){
+//     if(arr[i] > 10){
+//         lowestIndex = i;
+//         break;
+//     }
+// }
+// console.log(lowestIndex);
